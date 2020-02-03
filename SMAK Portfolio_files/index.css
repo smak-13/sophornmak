@@ -1,0 +1,217 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.container,img,{
+  padding: 20px;
+  margin: 20px;
+  maxwidth: 100px;
+  line-height: 500px 
+
+}
+header{ 
+  background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=kalen-emsley-Bkci_8qcdvQ-unsplash.jpg");
+  opacity: 0.9;
+  border-bottom: white;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+  height: 750px;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 255, 255)
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ropa Sans', sans-serif;
+  line-height: 150%;
+  color:black;
+  background:rgb(255, 255, 255); 
+}
+/* 
+textbox infront of mountain background */
+/* .textbox {
+  background: transparent;
+  background: rgba(198, 199, 202, 0.5);
+  width:100px; */
+  
+  }
+
+.index,.contact1,.portfolio {
+    margin-bottom: 10px;
+    padding: 0px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f4f6f8;
+    color: #0c0b0b;
+}
+/* about me section start here */
+.about {
+  font: 14px 'Ropa Sans', sans-serif;
+  background: rgb(243, 241, 241);
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 100px;
+  overflow: hidden;
+
+}
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+  padding-left: 20px;
+
+.float-left {
+    float: left;
+    margin-right: 25psx;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+ h1 {
+  font: 14px 'opensans-bold', sans-serif;
+  /* width: 100%;
+  text-transform: uppercase;
+  padding: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+  color: rgb(20, 19, 19); */
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+  /* font-family: 'Ropa Sans', sans-serif */
+
+
+ /* .container img {
+   vertical-align: middle; 
+} */
+  
+/* navbar start here */
+  #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+    margin: 0;
+    padding: 0; 
+    border: none;
+    outline: none;
+}
+ 
+ /* nav-wrap */
+ #nav-wrap {
+    font: 14px 'opensans-bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+ ul#nav {
+    min-height: 48px;
+    width: auto;
+    text-align: center;
+}
+  
+ ul#nav li {
+    position: relative;
+    list-style: none;
+    height:10px;
+    display: inline-block;
+}
+
+ /* Links */
+ ul#nav li a {
+ /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(161, 168, 168);
+ 
+    /* -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;  */
+}
+ul#nav li.current a { 
+  color: #F06000; 
+}
+
+/* Banner start here */
+header:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+header .banner {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+header .banner-text { 
+
+  /* width: 100%;
+  line-height: 50px;
+
+} */
+header .banner-text h1 {
+   font-family: 'Ropa Sans', sans-serif;
+   font: 90px/1.1em 'opensans-bold'
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+
+}
+/* header .banner-text h3 {
+  font-family: 'Ropa Sans', sans-serif;
+   font: 22px/1.9em 
+   color: rgb(77, 74, 75);
+   margin: 0 auto;
+   width: 70%;
+   background-color: rgb(255, 255, 255, .55);
+   line-height: 70px; */
+/* 
+}
+
+header .banner-text h3 span {
+  color: rgb(206, 50, 30);
+  
+}
+
+header .banner-text h3 {
+  color: #FE6845;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); */
+
+}
+/* 
+header .banner-text h3 a:hover { 
+  color: #11ABB0; 
+  header .banner-text hr {
+  width: 60%;
+  margin: 18px auto 24px auto;
+  border-color: #2F2D2E;
+  border-color: rgba(150, 150, 150, .1);
+} */
+
+
+
+ 

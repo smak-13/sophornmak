@@ -1,0 +1,171 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.container,img,{
+  padding: 20px;
+  margin: 20px;
+  maxwidth: 100px;
+  line-height: 500px 
+
+}
+header{ 
+  background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=kalen-emsley-Bkci_8qcdvQ-unsplash.jpg");
+  opacity: 0.9;
+  border-bottom: white;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+  height: 750px;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 255, 255)
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ropa Sans', sans-serif;
+  line-height: 150%;
+  color:black;
+  background:rgb(255, 255, 255); 
+}
+
+/* ================ Header Style  - Start =================================  */
+
+/* Banner start here */
+header:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+header .banner {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+header .banner-text { 
+  width: 100%;
+  line-height: 50px;
+
+} 
+
+header .banner-text h1 {
+   font-family: 'Ropa Sans', sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+
+}
+
+/* =========  Navigation Bar - Start ========================= */
+
+*/
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+   background-color: rgba(0,0,0,0.7);
+}
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+
+   /* center align the menu */
+   text-align: center;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+	text-decoration: none;
+   text-align: left;
+   color: rgb(204, 77, 27);
+
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+ul#nav li.current a { 
+  color: #F06000; 
+
+}
+
+/* =============== About Section ===================== */
+
+*/
+#about {
+   background: rgb(60, 76, 167);
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#about h2 {
+   font: 35px/30px 'opensans-bold', sans-serif;
+   color: rgb(20, 20, 20);
+   margin-bottom: 12px;
+   text-align: center;
+}
+#about p {
+   line-height: 30px;
+   color: rgb(41, 39, 39);
+}
+#about .profile-pic {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+   float: left;
+}
+
+#about .main-col p span {
+   color: #fff;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
