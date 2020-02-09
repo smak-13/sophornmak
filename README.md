@@ -1,4 +1,4 @@
-Homework 2 - CSS and Bootstrap: Responsive Portfolio:
+Homework 2 - CSS and Bootstrap: Responsive Portfolio
 
 The objective of this project is to create a responsive portfolio so all web applications render well on a variety of devices and window or screen sizes.
 
