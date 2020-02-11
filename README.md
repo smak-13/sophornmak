@@ -4,11 +4,12 @@ The objective of this project is to create a responsive portfolio so all web app
 
 My responsive layout includes the following:
 
- -  Adding a navbar;
+ -  Added a navbar;
  -  Utilization of the grid system (containers, rowsm,columns and text layout);
- - Layout using bootstrap ref. Contact page
- -  Added an background image
+ -  Layout using bootstrap ref. Contact page
+ -  Added an new background image
  -  Included google font
+ 
  
 
 
